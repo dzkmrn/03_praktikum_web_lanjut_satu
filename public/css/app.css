@@ -1,0 +1,80 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.mymovies {
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://movie-phinf.pstatic.net/20210715_95/1626338192428gTnJl_JPEG/movie_image.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.mymovies>button {
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 80px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.mymovies>button:hover {
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.container {
+    margin: 20px auto 20px auto;
+    width: 95%;
+    max-width: 1200px;
+}
+
+.form {
+    margin: 20px auto;
+    width: 35%;
+    height: 350px;
+    border: 1pt;
+    padding: 20px;
+    box-shadow: 0px 0px 3px 0px gray;
+}
+
+input {
+    width: 100%;
+}
+
+.comment {
+    height: 78pt;
+}
+
+.card-body > .comments{
+    color: grey;
+    font-size: 10pt;
+}
+
+.button{
+    margin: center;
+    text-align: center;
+    margin-top: -7pt;
+}
+.button > .save{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 3pt;
+    padding: 4pt;
+}
+
+.button > .close{
+    color: black;
+    border-radius: 3pt;
+    padding: 4pt;
+}
